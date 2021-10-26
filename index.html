@@ -7,18 +7,23 @@
     <title>Jogo da Memória</title> 
 </head>
 <body>
-    <div id="1" class="card" data-icon="javascript">
-        <div class="card_front">
-            <img class="icon" src="./assets/js.png" alt="javascript">
-        </div>
-        <div class="card_back">
-            &lt/&gt
+    <div id="gameBoard">
+        <div id="1" class="card" data-icon="javascript">
+            <div class="card_front">
+                <img class="icon" src="./img/js.png" alt="javascript">
+            </div>
+            <div class="card_back">
+                &lt/&gt
+            </div>
         </div>
     </div>
+    
 
     <div id="gameOver">
         <h1 id="title">Parabéns você ganhou o jogo!</h1>
         <button id="restart" onclick="restart()">Reiniciar</button>
     </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
